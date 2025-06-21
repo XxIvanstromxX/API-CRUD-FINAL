@@ -1,0 +1,19 @@
+# Evitar los node_modules
+node_modules/
+# Evitar los archivos de log
+logs/
+# Evitar los archivos de configuración de IDEs
+.idea/
+# Evitar los archivos de configuración de Visual Studio Code
+.vscode/
+
+# Evitar variables de entorno
+.env
+# Evitar subir nuestro package-lock.json
+package-lock.json
+
+# No subir nuestras peticiones de http
+*.http
+
+# No subir el DS_Store de MacOS
+.DS_Store
